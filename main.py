@@ -45,7 +45,7 @@ class User(UserMixin, db.Model):
     posts = relationship("BlogPost", back_populates="author")
     comments = relationship("Comment", back_populates="comment_author")
 
-db.create_all()
+# db.create_all()
 ##CONFIGURE TABLES
 
 class BlogPost(db.Model):
