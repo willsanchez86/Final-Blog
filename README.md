@@ -1,22 +1,48 @@
-<h1>My Blog</h1>
+# Blog
+### Overview
 
-<h2>Motivation</h2>
-Portfolio project that incorporates Database Management, User authentication, Flask tools and more. 
-The end product is an easy to use web application where anybody can get a better understanding of me, outside of the workspace. 
-It's a place to share my thoughts, ideas, and my journey in hopes of establishing connections with potential employers, fellow developers, and new friends. 
+A Personal Blog Website, and my first full stack web application ever built.  From building out my first database, implementing/validating forms, user registration and login authentication, working through this project instilled a big picture understanding of the development process.
 
-<h2>Built with</h2>
-
-Flask
-Bootstrap
-Sqlalchemy
-SMTPlib
-Werkzeug Security
+<a href="https://will-final-blog.herokuapp.com/"><img src="https://img.shields.io/badge/-DEMO-4E69C8?style=for-the-badge&logo=appveyor;link=https://will-final-blog.herokuapp.com/" alt="DEMO"></a>
 
 
-<h2>How to use?</h2>
-The website can be accessed at: https://will-final-blog.herokuapp.com/
+### Features
+* Implemented with pure HTML & CSS
+* Python/Flask Back-End
+* Werkzeug Security for login authentication and password hashing
 
 
-<h2>Credits</h2>
-Front end was desined using "Clean Blog" Bootstrap Template.
+
+
+### Installation & Startup
+```bash
+Clone the repository and change directory into it:
+  
+git clone https://github.com/willsanchez86/Final-Blog.git 
+cd Final-Blog
+  
+Activate Virtual Environment
+  
+pip install - r requirements.txt
+  
+Setup Flask App:
+  * On Command Prompt/Bash:
+      set FLASK_APP=main.py
+  * On Powershell:
+      $env:FLASK_APP = "main.py"
+      
+flask run
+```
+
+
+
+### Usage & Details
+* Posts are viewable for all users
+* To comment, login or register for a new account
+
+
+### Credits
+* Project Heavily inspired by Angela Yu - 100 Days of Code
+
+
+
